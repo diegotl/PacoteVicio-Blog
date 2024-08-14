@@ -11,9 +11,9 @@
 }
 
 body {
-    background: #fff;
+    background: #fcfaf4;
     color: #000;
-    font-family: Helvetica, Arial;
+    font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
 }
 
@@ -26,12 +26,12 @@ body {
 }
 
 header {
-    background-color: #eee;
+    background-color: #fcfaf4;
 }
 
 header .wrapper {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -87,10 +87,10 @@ a {
 
 .item-list > li {
     display: block;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: #eee;
-    margin-bottom: 20px;
+/*    padding: 20px;*/
+/*    border-radius: 20px;*/
+/*    background-color: #eee;*/
+/*    margin-bottom: 60px;*/
 }
 
 .item-list > li:last-child {
@@ -103,7 +103,7 @@ a {
 }
 
 .item-list p {
-    margin-bottom: 0;
+/*    margin-bottom: 0;*/
 }
 
 .tag-list {
@@ -126,15 +126,40 @@ a {
 }
 
 .item-page .tag-list {
+    font-family: 'Source Sans Pro', sans-serif;
     display: inline-block;
 }
 
 .date {
-    font-size: 0.8em;
+    margin-bottom: 5px;
+    font-size: 1.0em;
+    font-style: italic;
+    color: #aeaeb2;
 }
 
-.front-page-content {
-    margin-top: 20px;
+.item-title {
+    font-size: 2.4em;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.item-content {
+    margin-top: 10px;
+/*    margin-bottom: 60px;*/
+    margin-left: 20px;
+}
+
+.item-hr {
+    border: none;
+    background-color: #aeaeb2;
+    color: #aeaeb2;
+    height: 1px;
+    opacity: 0.2;
+    margin-top: 60px;
+    margin-bottom: 60px;
+/*    margin-left: 100px;*/
+/*    margin-right: 100px;*/
 }
 
 .content {
@@ -156,9 +181,10 @@ footer {
     color: #8a8a8a;
 }
 
-@media (prefers-color-scheme: dark) {
+/*
+ @media (prefers-color-scheme: dark) {
     body {
-        background-color: #222;
+        background-color: #000;
     }
 
     body,
@@ -167,13 +193,14 @@ footer {
     }
 
     .item-list > li {
-        background-color: #333;
+        background-color: #bbb;
     }
 
     header {
         background-color: #000;
     }
 }
+*/
 
 @media(max-width: 600px) {
     .wrapper {
