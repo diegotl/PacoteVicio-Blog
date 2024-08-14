@@ -11,7 +11,7 @@
 }
 
 body {
-    background: #fcfaf4;
+    background-color: #fcfaf4;
     color: #000;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
@@ -166,6 +166,10 @@ a {
     margin-bottom: 40px;
 }
 
+.appstore-badge {
+    margin-bottom: 12px;
+}
+
 .browse-all {
     display: block;
     margin-bottom: 30px;
@@ -178,29 +182,20 @@ a {
 }
 
 footer {
-    color: #8a8a8a;
+    font-size: 0.9em;
+    color: #aeaeb2;
 }
 
-/*
- @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     body {
         background-color: #000;
-    }
-
-    body,
-    header .site-name {
-        color: #ddd;
-    }
-
-    .item-list > li {
-        background-color: #bbb;
+        color: #fff;
     }
 
     header {
         background-color: #000;
     }
 }
-*/
 
 @media(max-width: 600px) {
     .wrapper {
